@@ -1,6 +1,55 @@
-{"level":"info","message":"SIGNAL: MATCH_PREDICTION | Bayern Munich vs Borussia Dortmund | undefined | undefined","timestamp":"2026-02-09T19:54:54.734Z"}
-{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.738Z"}
-{"level":"info","message":"SIGNAL: VALUE_BET | Real Madrid vs Barcelona | Real Madrid | 2.1","timestamp":"2026-02-09T19:54:54.740Z"}
-{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.741Z"}
-{"level":"info","message":"SIGNAL: ODDS_DROP | Manchester City vs Liverpool | Manchester City | 1.65","timestamp":"2026-02-09T19:54:54.741Z"}
-{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.742Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T20:03:38.155Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T20:03:59.235Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T20:04:28.982Z"}
+{"level":"info","message":"SIGNAL: MATCH_PREDICTION | Bayern Munich vs Borussia Dortmund | undefined | undefined","timestamp":"2026-02-09T20:21:56.456Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T20:21:56.464Z"}
+{"level":"info","message":"SIGNAL: VALUE_BET | Real Madrid vs Barcelona | Real Madrid | 2.1","timestamp":"2026-02-09T20:21:56.469Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T20:21:56.470Z"}
+{"level":"info","message":"SIGNAL: ODDS_DROP | Manchester City vs Liverpool | Manchester City | 1.65","timestamp":"2026-02-09T20:21:56.472Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T20:21:56.474Z"}
+{"level":"info","message":"Vercel Cron Triggered","timestamp":"2026-02-09T20:22:12.717Z"}
+{"level":"info","message":"Starting odds signal and prediction scan...","timestamp":"2026-02-09T20:22:12.722Z"}
+{"level":"info","message":"Scanning league: soccer_epl","timestamp":"2026-02-09T20:22:12.723Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.723Z"}
+{"level":"info","message":"Scanning league: soccer_germany_bundesliga","timestamp":"2026-02-09T20:22:12.725Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.726Z"}
+{"level":"info","message":"Scanning league: soccer_netherlands_eredivisie","timestamp":"2026-02-09T20:22:12.726Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.727Z"}
+{"level":"info","message":"Scanning league: soccer_portugal_primeira_liga","timestamp":"2026-02-09T20:22:12.727Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.728Z"}
+{"level":"info","message":"Scanning league: soccer_spain_la_liga","timestamp":"2026-02-09T20:22:12.728Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.729Z"}
+{"level":"info","message":"Scanning league: soccer_japan_j_league","timestamp":"2026-02-09T20:22:12.729Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.729Z"}
+{"level":"info","message":"Scanning league: soccer_sweden_allsvenskan","timestamp":"2026-02-09T20:22:12.730Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.730Z"}
+{"level":"info","message":"Scanning league: soccer_china_super_league","timestamp":"2026-02-09T20:22:12.730Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T20:22:12.731Z"}
+{"level":"info","message":"Scan completed.","timestamp":"2026-02-09T20:22:12.731Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T20:22:12.734Z"}
+{"level":"info","message":"SIGNAL: MATCH_PREDICTION | Bayern Munich vs Borussia Dortmund | undefined | undefined","timestamp":"2026-02-09T22:15:57.937Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T22:15:57.941Z"}
+{"level":"info","message":"SIGNAL: VALUE_BET | Real Madrid vs Barcelona | Real Madrid | 2.1","timestamp":"2026-02-09T22:15:57.943Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T22:15:57.943Z"}
+{"level":"info","message":"SIGNAL: ODDS_DROP | Manchester City vs Liverpool | Manchester City | 1.65","timestamp":"2026-02-09T22:15:57.944Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T22:15:57.945Z"}
+{"level":"info","message":"Vercel Cron Triggered","timestamp":"2026-02-09T22:16:13.474Z"}
+{"level":"info","message":"Starting odds signal and prediction scan...","timestamp":"2026-02-09T22:16:13.479Z"}
+{"level":"info","message":"Scanning league: soccer_epl","timestamp":"2026-02-09T22:16:13.480Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.481Z"}
+{"level":"info","message":"Scanning league: soccer_germany_bundesliga","timestamp":"2026-02-09T22:16:13.482Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.483Z"}
+{"level":"info","message":"Scanning league: soccer_netherlands_eredivisie","timestamp":"2026-02-09T22:16:13.483Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.488Z"}
+{"level":"info","message":"Scanning league: soccer_portugal_primeira_liga","timestamp":"2026-02-09T22:16:13.488Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"info","message":"Scanning league: soccer_spain_la_liga","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"info","message":"Scanning league: soccer_japan_j_league","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"info","message":"Scanning league: soccer_sweden_allsvenskan","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"info","message":"Scanning league: soccer_china_super_league","timestamp":"2026-02-09T22:16:13.489Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.490Z"}
+{"level":"info","message":"Scan completed.","timestamp":"2026-02-09T22:16:13.490Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T22:16:13.492Z"}
