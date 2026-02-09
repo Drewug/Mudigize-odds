@@ -1,0 +1,21 @@
+{"level":"info","message":"Mudigize OddsSignal Bot starting...","timestamp":"2026-02-09T19:36:34.973Z"}
+{"level":"info","message":"Starting odds signal scan...","timestamp":"2026-02-09T19:36:34.977Z"}
+{"level":"info","message":"Scanning league: soccer_epl","timestamp":"2026-02-09T19:36:34.978Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:34.978Z"}
+{"level":"info","message":"Scheduling cron job with: 0 */4 * * *","timestamp":"2026-02-09T19:36:34.978Z"}
+{"level":"info","message":"Scanning league: soccer_germany_bundesliga","timestamp":"2026-02-09T19:36:35.347Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.348Z"}
+{"level":"info","message":"Scanning league: soccer_netherlands_eredivisie","timestamp":"2026-02-09T19:36:35.348Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.349Z"}
+{"level":"info","message":"Scanning league: soccer_portugal_primeira_liga","timestamp":"2026-02-09T19:36:35.350Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.350Z"}
+{"level":"info","message":"Scanning league: soccer_spain_la_liga","timestamp":"2026-02-09T19:36:35.350Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.351Z"}
+{"level":"info","message":"Scanning league: soccer_japan_j_league","timestamp":"2026-02-09T19:36:35.351Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.351Z"}
+{"level":"info","message":"Scanning league: soccer_sweden_allsvenskan","timestamp":"2026-02-09T19:36:35.351Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.351Z"}
+{"level":"info","message":"Scanning league: soccer_china_super_league","timestamp":"2026-02-09T19:36:35.352Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T19:36:35.352Z"}
+{"level":"info","message":"Odds signal scan completed.","timestamp":"2026-02-09T19:36:35.352Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T19:36:35.355Z"}
