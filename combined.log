@@ -53,3 +53,24 @@
 {"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:16:13.490Z"}
 {"level":"info","message":"Scan completed.","timestamp":"2026-02-09T22:16:13.490Z"}
 {"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T22:16:13.492Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T22:28:32.267Z"}
+{"level":"info","message":"Vercel Cron Triggered","timestamp":"2026-02-09T22:28:32.646Z"}
+{"level":"info","message":"Starting odds signal and prediction scan...","timestamp":"2026-02-09T22:28:32.650Z"}
+{"level":"info","message":"Scanning league: soccer_epl","timestamp":"2026-02-09T22:28:32.651Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.651Z"}
+{"level":"info","message":"Scanning league: soccer_germany_bundesliga","timestamp":"2026-02-09T22:28:32.652Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.653Z"}
+{"level":"info","message":"Scanning league: soccer_netherlands_eredivisie","timestamp":"2026-02-09T22:28:32.653Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.654Z"}
+{"level":"info","message":"Scanning league: soccer_portugal_primeira_liga","timestamp":"2026-02-09T22:28:32.654Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.654Z"}
+{"level":"info","message":"Scanning league: soccer_spain_la_liga","timestamp":"2026-02-09T22:28:32.655Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.655Z"}
+{"level":"info","message":"Scanning league: soccer_japan_j_league","timestamp":"2026-02-09T22:28:32.658Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"info","message":"Scanning league: soccer_sweden_allsvenskan","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"info","message":"Scanning league: soccer_china_super_league","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"info","message":"Scan completed.","timestamp":"2026-02-09T22:28:32.659Z"}
+{"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T22:28:32.661Z"}
