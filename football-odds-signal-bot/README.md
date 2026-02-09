@@ -74,3 +74,19 @@ MIT
 🎯 Pick: **Manchester City**
 📉 Drop: **13.16%** (1.90 ➡️ 1.65)
 🏦 Bookmaker: Pinnacle
+
+## Deployment
+
+### Vercel (Serverless)
+1. Push this code to a GitHub repository.
+2. Connect the repository to Vercel.
+3. Add Environment Variables: `ODDS_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`.
+4. The cron job is configured in `vercel.json` to run every 4 hours.
+5. **Note:** Vercel is stateless. The SQLite database will reset on every deployment or function spin-up. For persistence, consider using [Neon Postgres](https://neon.tech/) (free tier).
+
+### Render (Background Worker - Recommended)
+1. Push this code to a GitHub repository.
+2. Create a new **Web Service** or **Background Worker** on Render.
+3. Use `npm start` as the start command.
+4. Add Environment Variables.
+5. Render supports persistent disks if you use a Web Service with a disk, allowing the SQLite database to survive restarts.
