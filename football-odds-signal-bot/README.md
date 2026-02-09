@@ -37,3 +37,40 @@ A Node.js football sports bet odd signal bot that detects value bets and odds dr
 
 ## License
 MIT
+
+## Sample Telegram Notifications
+
+### 1. Match Prediction
+🚨 **MATCH PREDICTION** 🚨
+
+⚽ Bayern Munich vs Borussia Dortmund
+🏆 German Bundesliga
+⏰ Kickoff: 2/9/2026, 8:54:54 PM
+
+🔍 **Predicted Outcomes:**
+• Bayern Munich (65% confidence)
+• Over 2.5 Goals (72% confidence)
+• BTTS - Yes (68% confidence)
+
+---
+
+### 2. Value Bet
+🚨 **VALUE BET** 🚨
+
+⚽ Real Madrid vs Barcelona
+🏆 Spain La Liga
+🎯 Pick: **Real Madrid**
+📈 Odds: **2.10** (Fair: 1.95)
+💰 Value: **7.69%**
+🏦 Bookmaker: Bet365
+
+---
+
+### 3. Odds Drop
+🚨 **ODDS DROP** 🚨
+
+⚽ Manchester City vs Liverpool
+🏆 Premier League
+🎯 Pick: **Manchester City**
+📉 Drop: **13.16%** (1.90 ➡️ 1.65)
+🏦 Bookmaker: Pinnacle

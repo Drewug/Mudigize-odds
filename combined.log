@@ -1,0 +1,6 @@
+{"level":"info","message":"SIGNAL: MATCH_PREDICTION | Bayern Munich vs Borussia Dortmund | undefined | undefined","timestamp":"2026-02-09T19:54:54.734Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.738Z"}
+{"level":"info","message":"SIGNAL: VALUE_BET | Real Madrid vs Barcelona | Real Madrid | 2.1","timestamp":"2026-02-09T19:54:54.740Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.741Z"}
+{"level":"info","message":"SIGNAL: ODDS_DROP | Manchester City vs Liverpool | Manchester City | 1.65","timestamp":"2026-02-09T19:54:54.741Z"}
+{"level":"warn","message":"Telegram bot not configured. Skipping notification.","timestamp":"2026-02-09T19:54:54.742Z"}
