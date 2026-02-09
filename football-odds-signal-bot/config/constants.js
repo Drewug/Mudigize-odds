@@ -12,7 +12,8 @@ module.exports = {
   MARKETS: {
     H2H: 'h2h',
     OVER_UNDER: 'totals',
-    SPREADS: 'spreads'
+    SPREADS: 'spreads',
+    BTTS: 'btts'
   },
   BOOKMAKERS: {
     PINNACLE: 'pinnacle',

@@ -16,7 +16,7 @@ module.exports = {
         params: {
           apiKey: ODDS_API_KEY,
           regions,
-          markets,
+          markets, // Can be comma separated
           oddsFormat: 'decimal'
         }
       });

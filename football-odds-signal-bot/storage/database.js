@@ -1,6 +1,14 @@
 const sqlite3 = require('sqlite3').verbose();
+const fs = require('fs');
+const path = require('path');
 const { DATABASE_PATH } = require('../config');
 const logger = require('../utils/logger');
+
+// Ensure directory exists
+const dir = path.dirname(DATABASE_PATH);
+if (!fs.existsSync(dir)) {
+  fs.mkdirSync(dir, { recursive: true });
+}
 
 const db = new sqlite3.Database(DATABASE_PATH, (err) => {
   if (err) {

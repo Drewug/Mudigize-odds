@@ -1,20 +1,31 @@
 const { LEAGUES, MARKETS } = require('../config');
 const { oddsApi } = require('../apis');
-const { valueBet, oddsDrop } = require('../signals');
+const { valueBet, oddsDrop, matchPredictor } = require('../signals');
 const oddsRepository = require('../storage/oddsRepository');
 const signalRepository = require('../storage/signalRepository');
 const { notify } = require('../notifications');
 const logger = require('../utils/logger');
 
 const run = async () => {
-  logger.info('Starting odds signal scan...');
+  logger.info('Starting odds signal and prediction scan...');
+  const marketList = `${MARKETS.H2H},${MARKETS.OVER_UNDER},${MARKETS.BTTS}`;
 
   for (const league of LEAGUES) {
     logger.info(`Scanning league: ${league}`);
-    const events = await oddsApi.fetchOdds(league);
+    const events = await oddsApi.fetchOdds(league, 'eu', marketList);
 
     for (const event of events) {
-      // 1. Detect Value Bets
+      // 1. Generate Match Predictions
+      const prediction = matchPredictor.predict(event);
+      if (prediction) {
+        const recent = await signalRepository.getRecentSignals(prediction.event_id, prediction.type);
+        if (recent.length === 0) {
+          await signalRepository.saveSignal(prediction);
+          await notify(prediction);
+        }
+      }
+
+      // 2. Detect Value Bets
       const valueSignals = valueBet.detectValue(event);
       for (const signal of valueSignals) {
         const recent = await signalRepository.getRecentSignals(signal.event_id, signal.type);
@@ -24,8 +35,7 @@ const run = async () => {
         }
       }
 
-      // 2. Detect Odds Drops
-      // We check for drops in major bookmakers
+      // 3. Detect Odds Drops
       const bookmakersTotrack = event.bookmakers.map(bm => bm.key);
       for (const bmKey of bookmakersTotrack) {
         const dropSignals = await oddsDrop.detectDrop(event, bmKey, 'h2h');
@@ -38,7 +48,7 @@ const run = async () => {
         }
       }
 
-      // 3. Save current odds for future drop detection
+      // 4. Save current odds for future drop detection
       for (const bm of event.bookmakers) {
         for (const market of bm.markets) {
            await oddsRepository.saveOdds({
@@ -57,7 +67,7 @@ const run = async () => {
     }
   }
 
-  logger.info('Odds signal scan completed.');
+  logger.info('Scan completed.');
 };
 
 module.exports = { run };
