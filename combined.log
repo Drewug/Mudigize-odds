@@ -74,3 +74,4 @@
 {"level":"warn","message":"ODDS_API_KEY is not set. Skipping API call.","timestamp":"2026-02-09T22:28:32.659Z"}
 {"level":"info","message":"Scan completed.","timestamp":"2026-02-09T22:28:32.659Z"}
 {"level":"info","message":"Connected to SQLite database","timestamp":"2026-02-09T22:28:32.661Z"}
+{"level":"info","message":"Connected to SQLite database at ./data/history.sqlite","timestamp":"2026-02-10T08:48:15.195Z"}

@@ -13,8 +13,10 @@ module.exports = {
   ...settings,
   ...constants,
   DATABASE_PATH: databasePath,
+  DATABASE_URL: process.env.DATABASE_URL,
   ODDS_API_KEY: process.env.ODDS_API_KEY,
   TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN,
   TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID,
-  LOG_LEVEL: process.env.LOG_LEVEL || 'info'
+  LOG_LEVEL: process.env.LOG_LEVEL || 'info',
+  PORT: process.env.PORT || 3000
 };
